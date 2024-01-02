@@ -1,0 +1,28 @@
+.card-view {
+    width: 350px;
+    height: 230px;
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.card-description {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.card-view-icons {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
