@@ -3,7 +3,10 @@ import { Todo } from './components/index';
 
 function App() {
   return (
-    <Todo />
+    <>
+      <h1 className='mobile'>Use In Desktop Mode...</h1>
+      <div className='desktop'><Todo /></div>
+    </>
   );
 }
 
